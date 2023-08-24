@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      
+    </head>
+    <body style="text-align: center; background-color: beige;">
+        <form action="/register" method="POST">
+            <label>Enter your name:</label>
+            <input type="text" name="uname"/><br/>
+            <label>Enter your Email:</label>
+            <input type="email" name="email"/><br/>
+            <label>Enter your Mobile Number(must be 10 digits):</label>
+            <input type="number" name="Mob" maxlength="10"/><br/>
+            <label>Enter your Aadhar Number(xxxx-xxxx-xxxx):</label>
+            <input type="number" name="Aadhar" maxlength="12"/><br/>
+            <label>Set your Password:</label>
+            <input type="password" name="Password"/><br/>
+            <label>Confirm your Password :</label>
+            <input type="password" name="CPassword"/><br/>
+            <input type="submit"/>
+        </form>
+    </body>
+</html>

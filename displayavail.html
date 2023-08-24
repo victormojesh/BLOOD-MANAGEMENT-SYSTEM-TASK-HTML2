@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Availability of blood</title>
+    </head>
+    <body>
+        <table>
+            {%for i in range(l)%}
+                <tr>
+                    <td>{{data[i][0]}}</td>
+                    <td>{{data[i][1]}}</td>
+                    <td>{{data[i][2]}}</td>
+                    <td>{{data[i][3]}}</td>
+                    <td>{{data[i][4]}}</pd>
+                </tr>
+            {%endfor%}
+            </table>
+    </body>
+</html>
